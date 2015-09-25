@@ -350,8 +350,9 @@ var saveComponentProperties = function (component, data) {
     console.log(component.id);
     console.log(dashboard);
 //    ues.dashboards.rewire(page);
-    updateComponent(component);
+
     saveDashboard(component);
+    updateComponent(component);
 };
 
 /**
